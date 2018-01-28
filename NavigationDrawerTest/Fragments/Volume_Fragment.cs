@@ -1,21 +1,17 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 using Android.App;
-using Android.Content;
 using Android.OS;
-using Android.Runtime;
-using Android.Util;
 using Android.Views;
 using Android.Widget;
-using Android.Support.V4.App;
 
 namespace Convert_Stuff
 {
     public class Volume_Fragment : Android.Support.V4.App.Fragment
     {
+        // Conversion constants - factors that convert each unit into quarts
+        const double LITERS = 1.05669;
+
         public override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -112,7 +108,7 @@ namespace Convert_Stuff
                     temp = input / 946.353;
                     break;
                 case 8:   //Liters
-                    temp = input * 1.05669;
+                    temp = input * LITERS;
                     break;
                 case 9:   //Cubic Inches
                     temp = input / 57.7502;
@@ -160,7 +156,7 @@ namespace Convert_Stuff
                     output = temp * 946.353;
                     break;
                 case 8:   //Liters
-                    output = temp * 0.946353;
+                    output = temp / LITERS;
                     break;
                 case 9:   //Cubic Inches
                     output = temp * 57.7502;
