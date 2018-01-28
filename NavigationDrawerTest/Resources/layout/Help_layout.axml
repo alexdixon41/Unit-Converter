@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:background="#E2E2E2">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linearLayout1"
+        android:background="#E2E2E2">
+        <TextView
+            android:text="Help &amp; About"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1"
+            android:gravity="center"
+            android:textColor="?attr/colorPrimary"
+            android:textSize="30.0dp"
+            android:textStyle="bold"
+            android:layout_marginTop="10.0dp" />
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:background="?attr/colorPrimary"
+                android:layout_gravity="center">
+                <ImageView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:gravity="center"
+                    android:layout_margin="3dp"
+                    android:src="@drawable/help" />
+            </LinearLayout>
+        <TextView
+            android:text="Developer: Alex Dixon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:gravity="center"
+            android:textSize="18.0dp"
+            android:textColor="@android:color/primary_text_light_nodisable"
+            android:layout_marginTop="40.0dp" />
+        <TextView
+            android:text="Email: siralexsir88@gmail.com"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:gravity="center"
+            android:textSize="18.0dp"
+            android:textColor="@android:color/primary_text_light_nodisable"
+            android:layout_marginTop="20.0dp"
+            android:autoLink="email" />
+        <Button
+            android:text="Rate This App"
+            android:textSize="18dp"
+            android:textColor="@android:color/primary_text_light_nodisable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ratingButton"
+            android:layout_marginTop="20.0dp" />
+        <TextView
+            android:text="Happy Converting!"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:textColor="@android:color/primary_text_light_nodisable"
+            android:layout_marginTop="20dp" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:id="@+id/space1"
+            android:background="?attr/colorPrimary"
+            android:backgroundTint="#a9a9a9ff" />
+    </LinearLayout>
+</ScrollView>

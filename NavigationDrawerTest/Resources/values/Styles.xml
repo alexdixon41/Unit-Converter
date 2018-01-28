@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+  	<style name="MyTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+	    <item name="windowNoTitle">true</item>
+	    <item name="windowActionBar">false</item>
+	    <item name="colorPrimary">#2196F3</item>
+	    <item name="colorPrimaryDark">#1976D2</item>
+	    <item name="colorAccent">#9e9e9e</item>
+  	</style>
+  
+  	<style name="MyTheme" parent="MyTheme.Base">
+  	</style>
+
+  <style name="OutputRow">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">50.0dp</item>
+    <item name="android:orientation">horizontal</item>
+    <item name="android:gravity">center</item>
+  </style>
+
+</resources>

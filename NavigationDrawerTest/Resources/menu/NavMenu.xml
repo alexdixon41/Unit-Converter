@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <group 
+    android:checkableBehavior="single"
+    android:id="@+id/topGroup">
+    <item
+      android:id="@+id/nav_weight"
+      android:title="Weight"
+      android:icon="@drawable/ic_launcher"/>
+    <item
+      android:id="@+id/nav_distance"
+      android:title="Distance"
+      android:icon="@drawable/ic_launcher_1"/>
+    <item
+      android:id="@+id/nav_volume"
+      android:title="Volume"
+      android:icon="@drawable/ic_launcher_2"/>
+    <item
+      android:id="@+id/nav_temperature"
+      android:title="Temperature"
+      android:icon="@drawable/ic_launcher_3"/>
+    <item
+      android:id="@+id/nav_pressure"
+      android:title="Pressure"
+      android:icon="@drawable/pressure" />
+    <item
+      android:id="@+id/nav_energy"
+      android:title="Energy" 
+      android:icon="@drawable/lightning"/>
+    <item
+      android:id="@+id/nav_force"
+      android:title="Force"
+      android:icon="@drawable/bomb"/>
+    <item
+      android:id="@+id/nav_time"
+      android:title="Time" 
+      android:icon="@drawable/ic_access_time_black_24dp" />
+    <item
+      android:id="@+id/nav_data"
+      android:title="Data Storage"
+      android:icon="@drawable/ic_save_black_24dp" />
+  </group>
+  <group
+    android:checkableBehavior="single"
+    android:id="@+id/bottomGroup">
+    <item
+      android:id="@+id/help"
+      android:title="Help &amp; About"
+      android:icon="@drawable/ic_launcher_4" />
+  </group>
+</menu>

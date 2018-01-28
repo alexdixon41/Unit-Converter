@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="convert_stuff.convert_stuff" android:installLocation="auto" android:versionName="2.1" android:versionCode="4">
+	<uses-sdk android:minSdkVersion="16" />
+	<application android:theme="@style/MyTheme" android:label="Convert Stuff" android:icon="@drawable/main_launcher">
+		<activity android:name="MainActivity" android:configChanges="orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+		<activity android:name="com.google.android.gms.ads.AdActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustResize" />
+	</application>
+	<meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+	<uses-feature android:glEsVersion="0x00020000" android:required="true" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+</manifest>

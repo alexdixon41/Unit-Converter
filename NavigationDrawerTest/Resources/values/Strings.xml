@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="open_drawer">Open drawer</string>
+	<string name="close_drawer">Close drawer</string>
+  <string name="input_prompt">Choose Input Units</string>
+  <string name="output_prompt">Choose Output Units</string>
+  <string-array name="weight_units">
+    <item>Ounces</item>
+    <item>Pounds</item>
+    <item>Tons</item>
+    <item>Micrograms</item>
+    <item>Milligrams</item>
+    <item>Grams</item>
+    <item>Kilograms</item>
+    <item>Megagrams</item>
+  </string-array>
+  <string-array name="volume_units">
+    <item>Teaspoons</item>
+    <item>Tablespoons</item>
+    <item>Ounces</item>
+    <item>Cups</item>
+    <item>Pints</item>
+    <item>Quarts</item>
+    <item>Gallons</item>
+    <item>Milliliters</item>
+    <item>Liters</item>
+    <item>Cubic Inches</item>
+    <item>Cubic Feet</item>
+    <item>Cubic Yards</item>
+    <item>Cubic Millimeters</item>
+    <item>Cubic Meters</item>
+    <item>Bushels</item>
+  </string-array>
+  <string-array name="distance_units">
+    <item>Inches</item>
+    <item>Feet</item>
+    <item>Yards</item>
+    <item>Miles</item>
+    <item>Nanometers</item>
+    <item>Micrometers</item>
+    <item>Millimeters</item>
+    <item>Centimeters</item>
+    <item>Meters</item>
+    <item>Kilometers</item>
+  </string-array>
+  <string-array name="temp_units">
+    <item>Fahrenheit</item>
+    <item>Celsius</item>
+    <item>Kelvin</item>
+  </string-array>
+  <string-array name="time_units">
+    <item>Nanoseconds</item>
+    <item>Microseconds</item>
+    <item>Milliseconds</item>
+    <item>Seconds</item>
+    <item>Minutes</item>
+    <item>Hours</item>
+    <item>Days</item>
+    <item>Weeks</item>
+    <item>Years</item>
+    <item>Decades</item>
+    <item>Centuries</item>
+    <item>Millennia</item>
+  </string-array>
+  <string-array name="data_units">
+    <item>Bits</item>
+    <item>Nibbles</item>
+    <item>Bytes</item>
+    <item>Kilobytes</item>
+    <item>Megabytes</item>
+    <item>Gigabytes</item>
+    <item>Terabytes</item>
+    <item>Petabytes</item>
+    <item>Exabytes</item>
+    <item>Zettabyte</item>
+    <item>Yottabyte</item>
+  </string-array>
+  <string-array name="pressure_units">
+    <item>Pascal (Pa)</item>
+    <item>Bar (bar)</item>
+    <item>Atmosphere (atm)</item>
+    <item>Torr (Torr)</item>
+    <item>Pounds per square inch (psi)</item>
+  </string-array>
+  <string-array name="energy_units">
+    <item>Joules (J)</item>
+    <item>Gram Calories (cal)</item>
+    <item>Kilojoules (KJ)</item>
+    <item>Kilocalories (Cal)</item>
+    <item>Watt hours (Wh)</item>
+    <item>Kilowatt hours (kWh)</item>
+    <item>British thermal units (Btu)</item>
+  </string-array>
+  <string-array name="force_units">
+    <item>Gram-force (gf)</item>
+    <item>Newtons (N)</item>
+    <item>Pounds (lb)</item>
+    <item>Kilogram-force (kgf)</item>
+  </string-array>
+    
+</resources>
